@@ -12,6 +12,10 @@ __pycache__/
 # C extensions
 *.so
 
+# FloydHub files
+
+.floyd*
+
 # Distribution / packaging
 .Python
 env/
