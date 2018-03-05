@@ -109,3 +109,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Known datasets
+
+MNIST*
+MNIST_data/*
+
+# Exclude custom folders
+
+aind2-cnn/*
