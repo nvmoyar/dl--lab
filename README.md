@@ -33,14 +33,14 @@ In this notebook, we predict student admissions to graduate school at UCLA based
 
 ### Word Embeddings
 
-* [Embeddings using Skip-gram](./embeddings/skip-gram_word2vec.ipynb)
+* [Embeddings using Skip-gram](./embeddings/skip-grams.ipynb)
 
 When you're dealing with language and words, you end up with tens of thousands of classes to predict, one for each word. Trying to one-hot encode these words is massively inefficient, you'll have one element set to 1 and the other 50,000 set to 0. The word2vec algorithm finds much more efficient representations by finding vectors that represent the words. These vectors also contain semantic information about the words. Words that show up in similar contexts, such as "black", "white", and "red" will have vectors near each other. There are two architectures for implementing word2vec, CBOW (Continuous Bag-Of-Words) and Skip-gram. In this notebook, we implement the word2vec algorithm using the skip-gram architecture in TensorFlow. 
 
 
 ### Convolutions NN mini-labs
 
-* [CNN MiniProjects](./dl--lab/aind2-cnn/)
+* [CNN MiniProjects](./aind2-cnn/)
 
 This is an introducer mini lab for the [Dog Breed Classifier](https://github.com/nvmoyar/aind2-dog-breed-classifier). The idea is to learn how to do the tasks described below in Keras: 
 
@@ -52,7 +52,7 @@ This is an introducer mini lab for the [Dog Breed Classifier](https://github.com
 
 ### Semisupervised Learning
 
-* (./semi_supervised_learning/semi_supervised_learning.ipynb)
+* [GAN in Semisupervised Learning](./semi_supervised_learning/semi_supervised_learning.ipynb)
 
 This will be moved to an independent repo with more content related. This is a GAN project using SVHN dataset. Since this is a semisupervised problem, therefore we go through a problem where some of the data is labeled and some not. This is a very interesting and more realistic problem since it is closer to real life problems, where not all the information is labeled. 
 
